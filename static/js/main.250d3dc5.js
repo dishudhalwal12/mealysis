@@ -42854,7 +42854,7 @@
                 (0, _i.jsx)("div", {
                   className: "flex h-60 max-w-96 items-center justify-center",
                   children: (0, _i.jsx)("img", {
-                    src: "/loader.webp",
+                    src: "https://i.pinimg.com/originals/33/50/05/335005b8eab00e041475d300c1478c4b.gif",
                     alt: "loader",
                   }),
                 }),
@@ -45055,7 +45055,7 @@
                     (0, _i.jsx)("div", {
                       className: "mb-6 flex space-x-4",
                       children: (0, _i.jsx)("img", {
-                        src: "/favicon.ico",
+                        src: "https://i.pinimg.com/736x/4c/d3/8e/4cd38e5d59ced5285a4889c8fd54fce9.jpg",
                         alt: "Quick Compare App",
                         className: "h-40",
                       }),
@@ -45092,7 +45092,7 @@
                   (0, _i.jsx)("div", {
                     className: "flex space-x-4 pt-16",
                     children: (0, _i.jsx)("img", {
-                      src: "/favicon.ico",
+                      src: "https://i.pinimg.com/736x/4c/d3/8e/4cd38e5d59ced5285a4889c8fd54fce9.jpg",
                       alt: "Quick Compare App",
                       className: "h-10",
                     }),

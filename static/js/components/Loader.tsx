@@ -9,7 +9,7 @@ export default function Loader({ variant = "default" }: { variant: "default" | "
       <div className="flex w-full flex-col items-center justify-center">
         <div className="flex h-60 max-w-96 items-center justify-center">
           <img
-            src={"/loader.webp"}
+            src={"https://i.pinimg.com/originals/33/50/05/335005b8eab00e041475d300c1478c4b.gif"}
             alt="loader"
           />
         </div>

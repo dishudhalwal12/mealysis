@@ -35,7 +35,7 @@ export default function SearchPage() {
           <div className="flex w-full flex-col items-center justify-center">
             <div className="flex h-60 max-w-96 items-center justify-center">
               <img
-                src={"/favicon.ico"}
+                src={"https://i.pinimg.com/736x/4c/d3/8e/4cd38e5d59ced5285a4889c8fd54fce9.jpg"}
                 alt="placeholder"
               />
             </div>

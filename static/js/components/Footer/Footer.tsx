@@ -73,7 +73,7 @@ export const Footer = () => {
       </div>
       <div className="mb-6 flex space-x-4">
         <img 
-          src="/favicon.ico" 
+          src="https://i.pinimg.com/736x/4c/d3/8e/4cd38e5d59ced5285a4889c8fd54fce9.jpg" 
           alt="Quick Compare App" 
           className="h-10" 
         />
@@ -99,7 +99,7 @@ export const LogoFooter = () => {
         <div className="flex flex-col items-center">
           <div className="flex space-x-4 pt-16">
             <img 
-              src="/favicon.ico" 
+              src="https://i.pinimg.com/736x/4c/d3/8e/4cd38e5d59ced5285a4889c8fd54fce9.jpg" 
               alt="Quick Compare App" 
               className="h-10" 
             />
