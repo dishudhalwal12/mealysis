@@ -59,22 +59,6 @@ const HomePage = () => {
     isClickable?: boolean;
   }>, []);
 
-  // Memoize ad sizes to prevent unnecessary rerenders
-  const adSizes = useMemo((): [number, number][] => {
-    if (isAppBrowser || /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-      return [
-        [320, 50],   // Mobile Banner
-        [320, 100],  // Large Mobile Banner
-        [300, 250],  // Medium Rectangle
-      ];
-    } else {
-      return [
-        [728, 90],   // Leaderboard
-        [300, 250],  // Medium Rectangle (fallback)
-      ];
-    }
-  }, []); // Empty dependency array since these values don't change
-
   const handleClearRecent = useCallback(async () => {
     const confirmed = await showConfirmation({
       title: "Clear Recent Searches",
