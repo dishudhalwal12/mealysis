@@ -45,7 +45,7 @@ const BannerCarousel: React.FC<BannerCarouselProps> = ({ banners, autoPlayInterv
         window.location.href = "https://apple.co/40RjcWh";
       } else if (userAgent.includes("android")) {
         window.location.href =
-          "https://play.google.com/store/apps/details?id=com.quickcompare.app&hl=en";
+          "";
       }
     }
   };

@@ -9,7 +9,6 @@ import "../styles/globals.css";
 import { Footer, LogoFooter } from "../components/Footer/Footer.tsx";
 import BannerCarousel from "../components/BannerCarousel/BannerCarousel.tsx";
 import TrendingSearchSection from "../components/TrendingSearchSection.tsx";
-import GoogleAdBanner from "../components/GoogleAdBanner.tsx";
 import { useConfirmationDialog } from "../context/ConfirmationDialogContext.tsx";
 import { isAppBrowser } from "../utils/platform.ts";
 import { useMarketplace } from "../context/MarketplaceContext.tsx";
@@ -174,16 +173,6 @@ const HomePage = () => {
                 sectionTitle="Trending Items"
                 searches={marketplaceDetails.trendingItems}
               />
-              {/* Google Ad Banner - Show on all devices with different sizes */}
-              <div className="py-4 px-4">
-                      <GoogleAdBanner
-        key="qc_home"
-        adSlot="/23312116132/quickcompare_web/qc_home"
-        adFormat="auto"
-        className="w-full"
-        adSizes={adSizes}
-      />
-              </div>
             </div>
             <div className="h-4 px-4" />
             {!isAppBrowser ? <Footer /> : <LogoFooter />}
