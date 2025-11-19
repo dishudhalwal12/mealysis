@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Variables for theme-aware colors */
+:root {
+  /* Light theme colors */
+  --color-bg: #f0faf9;
+  --color-bg-dark: #0d9488;
+  --color-text: #3a3a3a;
+  --color-text-light: #8c9099;
+  --color-text-dark: #3a3a3a;
+  --color-text-light-dark: #8c9099;
+  --color-action: #017d70;
+  --color-action-dark: #0d9488;
+  --color-grey: #f0faf9;
+  --color-grey-light: #f7f7f7;
+  --color-grey-dark: #f0faf9;
+
+  /* Gray colors - light theme */
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+  --color-gray-900: #111827;
+  --color-gray-950: #030712;
+
+  /* Slate colors - light theme */
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #f1f5f9;
+  --color-slate-200: #e2e8f0;
+  --color-slate-300: #cbd5e1;
+  --color-slate-400: #94a3b8;
+  --color-slate-500: #64748b;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+  --color-slate-950: #020617;
+}
+
+.dark {
+  /* Dark theme colors */
+  --color-bg: #000000;
+  --color-bg-dark: #0d9488;
+  --color-text: #f9fafb;
+  --color-text-light: #8c9099;
+  --color-text-dark: #f9fafb;
+  --color-text-light-dark: #d1d5db;
+  --color-action: #0d9488;
+  --color-action-dark: #017d70;
+  --color-grey: #000000;
+  --color-grey-light: #1f2937;
+  --color-grey-dark: #1f2937;
+
+  /* Gray colors - dark theme */
+  --color-gray-50: #111827;
+  --color-gray-100: #1f2937;
+  --color-gray-200: #374151;
+  --color-gray-300: #4b5563;
+  --color-gray-400: #6b7280;
+  --color-gray-500: #9ca3af;
+  --color-gray-600: #d1d5db;
+  --color-gray-700: #e5e7eb;
+  --color-gray-800: #f3f4f6;
+  --color-gray-900: #f9fafb;
+  --color-gray-950: #ffffff;
+
+  /* Slate colors - dark theme */
+  --color-slate-50: #0f172a;
+  --color-slate-100: #1e293b;
+  --color-slate-200: #334155;
+  --color-slate-300: #475569;
+  --color-slate-400: #64748b;
+  --color-slate-500: #94a3b8;
+  --color-slate-600: #cbd5e1;
+  --color-slate-700: #e2e8f0;
+  --color-slate-800: #f1f5f9;
+  --color-slate-900: #f8fafc;
+  --color-slate-950: #ffffff;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  cursor: pointer;
+  height: 14px;
+  width: 14px;
+  display: block;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAn0lEQVR42u3UMQrDMBBEUZ9WfQqDmm22EaTyjRMHAlM5K+Y7lb0wnUZPIKHlnutOa+25Z4D++MRBX98MD1V/trSppLKHqj9TTBWKcoUqffbUcbBBEhTjBOV4ja4l4OIAZThEOV6jHO8ARXD+gPPvKMABinGOrnu6gTNUawrcQKNCAQ7QeTxORzle3+sDfjJpPCqhJh7GixZq4rHcc9l5A9qZ+WeBhgEuAAAAAElFTkSuQmCC");
+  background-repeat: no-repeat;
+  background-size: 14px;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+body {
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+html {
+  transition: background-color 0.2s ease;
+}
+
+/* Dark theme transitions */
+* {
+  transition: background-color 0.2s ease, color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+/* Ensure proper contrast in dark mode */
+.dark {
+  color-scheme: dark;
+}
+
+/* Theme-aware body and html backgrounds */
+body {
+  @apply bg-bg dark:bg-bg-dark text-text dark:text-text-dark;
+}
+
+html {
+  @apply bg-bg dark:bg-bg-dark;
+}

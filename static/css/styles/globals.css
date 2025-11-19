@@ -1,0 +1,55 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Custom Swiper Pagination Styles */
+.swiper-pagination-bullet {
+  width: 8px !important;
+  height: 8px !important;
+  background: rgba(255, 255, 255, 0.5) !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ffffff !important;
+  width: 16px !important;
+  border-radius: 4px !important;
+}
+
+/* Google Ad Banner Styles */
+.google-ad-banner {
+  min-height: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border-radius: 8px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.google-ad-banner ins {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Responsive ad banner for different screen sizes */
+@media (min-width: 768px) {
+  .google-ad-banner {
+    min-height: 50px; /* For leaderboard ads */
+  }
+}
+
+@media (max-width: 767px) {
+  .google-ad-banner {
+    min-height: 90px; /* For mobile rectangle ads */
+  }
+}
