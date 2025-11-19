@@ -44984,7 +44984,7 @@
           const e = {
             title: "Quick Compare App",
             text: "Compare prices across quick commerce apps in real-time. Save money on groceries and daily essentials.",
-            url: "https://quickcompare.app.link/qc",
+            url: "https://mealysis.vercel.app",
           };
           try {
             navigator.share && (await navigator.share(e));
@@ -44996,13 +44996,13 @@
           if (/Android/i.test(navigator.userAgent))
             return void (window.location.href = "whatsapp://send?text=".concat(
               encodeURIComponent(
-                "Checkout Quick Compare App: Compare prices across quick commerce apps in real-time. Save money on groceries and daily essentials. https://quickcompare.app.link/qc"
+                "Checkout Quick Compare App: Compare prices across quick commerce apps in real-time. Save money on groceries and daily essentials. https://mealysis.vercel.app.link/qc"
               )
             ));
           const e = {
             title: "Quick Compare App",
             text: "Compare prices across quick commerce apps in real-time. Save money on groceries and daily essentials.",
-            url: "https://quickcompare.app.link/qc",
+            url: "https://mealysis.vercel.app",
           };
           try {
             navigator.share && (await navigator.share(e));

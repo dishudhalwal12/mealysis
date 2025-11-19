@@ -3,9 +3,9 @@ import { IconShare2 } from '@tabler/icons-react';
 
 const handleShareWeb = async () => {
   const shareData = {
-    title: 'Quick Compare App',
+    title: 'MEALYSIS App',
     text: 'Compare prices across quick commerce apps in real-time. Save money on groceries and daily essentials.',
-    url: 'https://quickcompare.app.link/qc',
+    url: 'https://mealysis.vercel.app',
   };
 
   try {
@@ -20,14 +20,14 @@ const handleShareWeb = async () => {
 const handleShareApp = async () => {
   if (/Android/i.test(navigator.userAgent)) {
     window.location.href = `whatsapp://send?text=${encodeURIComponent(
-      'Checkout Quick Compare App: Compare prices across quick commerce apps in real-time. Save money on groceries and daily essentials. https://quickcompare.app.link/qc'
+      'Checkout Quick Compare App: Compare prices across quick commerce apps in real-time. Save money on groceries and daily essentials. https://mealysis.vercel.app'
     )}`;
     return;
   }
   const shareData = {
-    title: 'Quick Compare App',
+    title: 'Mealysis App',
     text: 'Compare prices across quick commerce apps in real-time. Save money on groceries and daily essentials.',
-    url: 'https://quickcompare.app.link/qc',
+    url: 'https://mealysis.vercel.app',
   };
 
   try {
