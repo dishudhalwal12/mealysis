@@ -1,21 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* CSS Variables for theme-aware colors */
 :root {
-  /* Light theme colors */
-  --color-bg: #f0faf9;
-  --color-bg-dark: #0d9488;
-  --color-text: #3a3a3a;
-  --color-text-light: #8c9099;
-  --color-text-dark: #3a3a3a;
-  --color-text-light-dark: #8c9099;
-  --color-action: #017d70;
-  --color-action-dark: #0d9488;
-  --color-grey: #f0faf9;
+  /* Light theme colors - more distinct */
+  --color-bg: #f5f0fb; /* Lighter, slightly purple background */
+  --color-bg-dark: #dde7fcff;
+  --color-text: #212121; /* Darker text for better contrast */
+  --color-text-light: #6a6a7a; /* Slightly darker light text */
+  --color-text-dark: #212121;
+  --color-text-light-dark: #6a6a7a;
+  --color-action: #7b3fe4; /* A vibrant purple for actions */
+  --color-action-dark: #dde7fcff;
+  --color-grey: #dde7fcff;
   --color-grey-light: #f7f7f7;
-  --color-grey-dark: #f0faf9;
+  --color-grey-dark: #dde7fcff;
 
   /* Gray colors - light theme */
   --color-gray-50: #f9fafb;
@@ -45,14 +47,14 @@
 }
 
 .dark {
-  /* Dark theme colors */
-  --color-bg: #000000;
-  --color-bg-dark: #0d9488;
-  --color-text: #f9fafb;
-  --color-text-light: #8c9099;
-  --color-text-dark: #f9fafb;
+  /* Dark theme colors - more distinct */
+  --color-bg: #1f1a2e; /* Darker, slightly purple background */
+  --color-bg-dark: #dde7fcff;
+  --color-text: #ececec; /* Lighter text for better contrast */
+  --color-text-light: #a0a0b0; /* Lighter light text */
+  --color-text-dark: #ececec;
   --color-text-light-dark: #d1d5db;
-  --color-action: #0d9488;
+  --color-action: #9c6fe4; /* A vibrant purple for actions */
   --color-action-dark: #017d70;
   --color-grey: #000000;
   --color-grey-light: #1f2937;
@@ -107,6 +109,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 body {
+  font-family: 'Inter', sans-serif;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
   transition: background-color 0.2s ease, color 0.2s ease;
