@@ -131,7 +131,7 @@ const HomePage = () => {
           <GeolocationNotAvailable />
         ) : marketplaceDetails ? (
           <>
-            <div>
+        <div>
               <div className="py-2"></div>
               <ServiceProviderSection eta={marketplaceDetails.eta} />
               <div className="py-2"></div>
@@ -157,7 +157,7 @@ const HomePage = () => {
                 sectionTitle="Trending Items"
                 searches={marketplaceDetails.trendingItems}
               />
-            </div>
+        </div>
             <div className="h-4 px-4" />
             {!isAppBrowser ? <Footer /> : <LogoFooter />}
             {!isAppBrowser ? <div className="h-32"></div> : <div className="h-32"></div>}

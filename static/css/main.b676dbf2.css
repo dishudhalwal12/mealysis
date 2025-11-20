@@ -1835,7 +1835,7 @@ video {
   background-color: var(--color-bg);
 }
 .bg-bg-dark {
-  background-color: #dde7fcff;
+  background-color: #5087ffff;
   background-color: var(--color-bg-dark);
 }
 .bg-gray-100 {
@@ -2266,7 +2266,7 @@ video {
   color: var(--color-bg);
 }
 .text-bg-dark {
-  color: #dde7fcff;
+  color: #5087ffff;
   color: var(--color-bg-dark);
 }
 .text-gray-100 {
@@ -2591,16 +2591,16 @@ video {
 }
 :root {
   --color-bg: #dde7fcff;
-  --color-bg-dark: #dde7fcff;
+  --color-bg-dark: #5087ffff;
   --color-text: #3a3a3a;
   --color-text-light: #8c9099;
   --color-text-dark: #3a3a3a;
   --color-text-light-dark: #8c9099;
   --color-action: #017d70;
-  --color-action-dark: #dde7fcff;
+  --color-action-dark: #5087ffff;
   --color-grey: #dde7fcff;
   --color-grey-light: #f7f7f7;
-  --color-grey-dark: #dde7fcff;
+  --color-grey-dark: #5087ffff;
   --color-gray-50: #f9fafb;
   --color-gray-100: #f3f4f6;
   --color-gray-200: #e5e7eb;
@@ -2626,16 +2626,16 @@ video {
 }
 .dark {
   --color-bg: #000;
-  --color-bg-dark: #dde7fcff;
+  --color-bg-dark: #5087ffff;
   --color-text: #f9fafb;
   --color-text-light: #8c9099;
   --color-text-dark: #f9fafb;
   --color-text-light-dark: #d1d5db;
-  --color-action: #dde7fcff;
+  --color-action: #5087ffff;
   --color-action-dark: #017d70;
   --color-grey: #000;
   --color-grey-light: #1f2937;
-  --color-grey-dark: #1f2937;
+  --color-grey-dark: #111111;
   --color-gray-50: #111827;
   --color-gray-100: #1f2937;
   --color-gray-200: #374151;
@@ -2691,7 +2691,7 @@ body {
   color: var(--color-text);
 }
 body:is(.dark *) {
-  background-color: #dde7fcff;
+  background-color: #5087ffff;
   background-color: var(--color-bg-dark);
   color: #3a3a3a;
   color: var(--color-text-dark);
@@ -2701,7 +2701,7 @@ html {
   background-color: var(--color-bg);
 }
 html:is(.dark *) {
-  background-color: #dde7fcff;
+  background-color: #5087ffff;
   background-color: var(--color-bg-dark);
 }
 .before\:absolute:before {
@@ -3040,7 +3040,7 @@ html:is(.dark *) {
   border-color: #0000;
 }
 .hover\:bg-action-dark:hover {
-  background-color: #dde7fcff;
+  background-color: #5087ffff;
   background-color: var(--color-action-dark);
 }
 .hover\:bg-bg:hover {
@@ -3048,7 +3048,7 @@ html:is(.dark *) {
   background-color: var(--color-bg);
 }
 .hover\:bg-bg-dark:hover {
-  background-color: #dde7fcff;
+  background-color: #5087ffff;
   background-color: var(--color-bg-dark);
 }
 .hover\:bg-gray-100:hover {
@@ -3100,7 +3100,7 @@ html:is(.dark *) {
   --tw-bg-opacity: 0.5;
 }
 .hover\:text-action-dark:hover {
-  color: #dde7fcff;
+  color: #5087ffff;
   color: var(--color-action-dark);
 }
 .hover\:text-gray-600:hover {
@@ -3368,14 +3368,14 @@ html:is(.dark *) {
   border-color: var(--color-gray-900);
 }
 .dark\:border-grey-dark:is(.dark *) {
-  border-color: #dde7fcff;
+  border-color: #5087ffff;
   border-color: var(--color-grey-dark);
 }
 .dark\:border-transparent:is(.dark *) {
   border-color: #0000;
 }
 .dark\:bg-bg:is(.dark *) {
-  background-color: #dde7fcff;
+  background-color: #5087ffff;
   background-color: var(--color-bg);
 }
 .dark\:bg-gray-400:is(.dark *) {
@@ -3391,7 +3391,7 @@ html:is(.dark *) {
   background-color: var(--color-gray-700);
 }
 .dark\:bg-gray-800:is(.dark *) {
-  background-color: #1f2937;
+  background-color: #111111;
   background-color: var(--color-gray-800);
 }
 .dark\:bg-gray-900:is(.dark *) {
@@ -3403,11 +3403,11 @@ html:is(.dark *) {
   background-color: var(--color-gray-950);
 }
 .dark\:bg-grey:is(.dark *) {
-  background-color: #dde7fcff;
+  background-color: #5087ffff;
   background-color: var(--color-grey);
 }
 .dark\:bg-grey-dark:is(.dark *) {
-  background-color: #dde7fcff;
+  background-color: #5087ffff;
   background-color: var(--color-grey-dark);
 }
 .dark\:bg-text-light:is(.dark *) {
@@ -3508,7 +3508,7 @@ html:is(.dark *) {
   border-color: #0000;
 }
 .dark\:hover\:bg-bg:hover:is(.dark *) {
-  background-color: #dde7fcff;
+  background-color: #5087ffff;
   background-color: var(--color-bg);
 }
 .dark\:hover\:bg-gray-500:hover:is(.dark *) {
@@ -3520,7 +3520,7 @@ html:is(.dark *) {
   background-color: var(--color-gray-600);
 }
 .dark\:hover\:bg-gray-800:hover:is(.dark *) {
-  background-color: #1f2937;
+  background-color: #111111;
   background-color: var(--color-gray-800);
 }
 .dark\:hover\:bg-gray-950:hover:is(.dark *) {
@@ -3528,7 +3528,7 @@ html:is(.dark *) {
   background-color: var(--color-gray-950);
 }
 .dark\:hover\:bg-grey-dark:hover:is(.dark *) {
-  background-color: #dde7fcff;
+  background-color: #5087ffff;
   background-color: var(--color-grey-dark);
 }
 .dark\:hover\:bg-purple-500:hover:is(.dark *) {

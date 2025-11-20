@@ -1,3 +1,4 @@
+@import url('./components/Chatbot/Chatbot.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 @tailwind base;
@@ -8,16 +9,16 @@
 :root {
   /* Light theme colors - more distinct */
   --color-bg: #f5f0fb; /* Lighter, slightly purple background */
-  --color-bg-dark: #dde7fcff;
+  --color-bg-dark: #5087ffff;
   --color-text: #212121; /* Darker text for better contrast */
   --color-text-light: #6a6a7a; /* Slightly darker light text */
   --color-text-dark: #212121;
   --color-text-light-dark: #6a6a7a;
   --color-action: #7b3fe4; /* A vibrant purple for actions */
-  --color-action-dark: #dde7fcff;
+  --color-action-dark: #5087ffff;
   --color-grey: #dde7fcff;
   --color-grey-light: #f7f7f7;
-  --color-grey-dark: #dde7fcff;
+  --color-grey-dark: #5087ffff;
 
   /* Gray colors - light theme */
   --color-gray-50: #f9fafb;
@@ -49,7 +50,7 @@
 .dark {
   /* Dark theme colors - more distinct */
   --color-bg: #1f1a2e; /* Darker, slightly purple background */
-  --color-bg-dark: #dde7fcff;
+  --color-bg-dark: #5087ffff;
   --color-text: #ececec; /* Lighter text for better contrast */
   --color-text-light: #a0a0b0; /* Lighter light text */
   --color-text-dark: #ececec;
@@ -58,11 +59,11 @@
   --color-action-dark: #017d70;
   --color-grey: #000000;
   --color-grey-light: #1f2937;
-  --color-grey-dark: #1f2937;
+  --color-grey-dark: #111111;
 
   /* Gray colors - dark theme */
   --color-gray-50: #111827;
-  --color-gray-100: #1f2937;
+  --color-gray-100: #111111;
   --color-gray-200: #374151;
   --color-gray-300: #4b5563;
   --color-gray-400: #6b7280;
